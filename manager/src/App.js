@@ -15,11 +15,11 @@ import {
 
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
-
+import reducers from './reducers';
 class App extends Component {
   render(){
     return (
-      <Provider>
+      <Provider store={createStore(reducers)}>
         <View>
           <Text>
             He
@@ -30,6 +30,5 @@ class App extends Component {
      )//return
     }
 
-  }//render
-
-}//class
+  }//class
+export default App;
