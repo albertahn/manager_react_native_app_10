@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import {emailChanges} from '../actions';
 import {Card, CardSection, Input, Button} from './common';
 
 
 class LoginForm extends Component{
 
     onEmailChange(text){
+
 
 
     }//email change
