@@ -23,14 +23,13 @@ class App extends Component {
 
 
   componentWillMount() {
-    
+
     const config = {
-              apiKey: "AIzaSyD5LprzQTVdAj0P7FYCx2ek0xuMJC7x7IQ",
-              authDomain: "project-2382567055602623632.firebaseapp.com",
-              databaseURL: "https://project-2382567055602623632.firebaseio.com",
-              projectId: "project-2382567055602623632",
-              storageBucket: "project-2382567055602623632.appspot.com",
-              messagingSenderId: "265869443051"
+            apiKey: 'AIzaSyBR4FTGiOcTZ5OBNi6thE0KhCDR3PaOtQM',
+            authDomain: 'manager-2328b.firebaseapp.com',
+            databaseURL: 'https://manager-2328b.firebaseio.com',
+            storageBucket: 'manager-2328b.appspot.com',
+            messagingSenderId: '193075244299'
             };
             firebase.initializeApp(config);
         }//mount

@@ -7,7 +7,7 @@ import { Card, CardSection, Input, Button, Spinner } from './common';
 class LoginForm extends Component {
 
 
-  
+
   onEmailChange(text) {
     this.props.emailChanged(text);
   }
@@ -51,16 +51,17 @@ class LoginForm extends Component {
           secureTextEntry
           label="Password"
           placeholder="password"
-          
+
         />
       </CardSection>
 
-      
+
 
       <CardSection>
+        <Button style={{height:50}} />
       </CardSection>
-      <Button />
-        
+
+
       </Card>
     );
   }
